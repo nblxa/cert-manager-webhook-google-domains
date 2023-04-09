@@ -1,8 +1,9 @@
+[![Build](https://github.com/nblxa/cert-manager-webhook-google-domains/actions/workflows/publish.yml/badge.svg)](https://github.com/nblxa/cert-manager-webhook-google-domains/actions/workflows/publish.yml)
+
 # ACME webhook for google-domains DNS API
 Usage:
 ```bash
-helm repo add nblxa https://nblxa.github.io/charts
-helm install my-release nblxa/cert-manager-webhook-google-domains
+helm install my-release oci://ghcr.io/nblxa/charts/cert-manager-webhook-google-domains
 ```
 
 To test:
@@ -54,6 +55,7 @@ stringData:
 ```
 
 # Credits
-This is based on the project [deyaeddin/cert-manager-webhook-hetzner](https://github.com/deyaeddin/cert-manager-webhook-hetzner) and [cert-manager/webhook-example](https://github.com/cert-manager/webhook-example)
+This is a fork of [dmahmalat/cert-manager-webhook-google-domains](https://github.com/dmahmalat/cert-manager-webhook-google-domains).
+Originally based on the project [deyaeddin/cert-manager-webhook-hetzner](https://github.com/deyaeddin/cert-manager-webhook-hetzner) and [cert-manager/webhook-example](https://github.com/cert-manager/webhook-example)
 
 Please feel free to fork/optimize/make an official version of this for release to https://artifacthub.io/.
