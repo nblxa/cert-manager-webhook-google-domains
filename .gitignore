@@ -25,4 +25,5 @@ _out
 /compiled/
 kubebuilder
 *.tar.gz
+*.tgz
 testdata/

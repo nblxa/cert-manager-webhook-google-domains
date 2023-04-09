@@ -35,6 +35,7 @@ spec:
   isCA: true
 
 ---
+
 # Create an Issuer that uses the above generated CA certificate to issue certs
 apiVersion: cert-manager.io/v1
 kind: Issuer
